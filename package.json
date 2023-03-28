@@ -1,0 +1,21 @@
+{
+  "name": "pdf-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "koa": "^2.13.3",
+    "koa-body": "^4.2.0",
+    "koa-morgan": "^1.0.1",
+    "koa-respond": "^2.1.0",
+    "koa-router": "^10.1.1",
+    "pdf-creator-node": "^2.2.4",
+    "puppeteer": "^10.4.0"
+  }
+}
